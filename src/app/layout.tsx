@@ -21,10 +21,19 @@ export default function RootLayout({
   );
 }
 
-
 //--------------------Route HAndlers -------------------
 
 // rout-handlers allow you to handle custom request handlers for a given route. they are defined
 // in a route.tsx or route.js file
 // to avoid conflict between pager-route (page.tsx) and route-handler (route.tsx)
 // place the rote-handler (route.ts) to a subdirectory named 'api'
+
+//-------------------- POST request -------------------
+
+// app/comments/route.ts
+// https://www.youtube.com/watch?v=pzPS7Fn-8tE&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=35
+// to test the request we can use VScode extension called 'Thunder Client'.
+
+//-------------------- Dynamic Route Handler -------------------
+
+// see: app/comments/[id]
