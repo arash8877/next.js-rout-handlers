@@ -20,3 +20,11 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+//--------------------Route HAndlers -------------------
+
+// rout-handlers allow you to handle custom request handlers for a given route. they are defined
+// in a route.tsx or route.js file
+// to avoid conflict between pager-route (page.tsx) and route-handler (route.tsx)
+// place the rote-handler (route.ts) to a subdirectory named 'api'
