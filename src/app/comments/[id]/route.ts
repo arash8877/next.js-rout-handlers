@@ -11,3 +11,12 @@ export const GET = async (_request: Request, { params }: iContext) => {
   const comment = comments.find((item) => item.id === parseInt(params.id));
   return Response.json(comment);
 };
+
+export const PATCH = async (request: Request, { params }: iContext) => {
+  const body = await request.json();
+  const { text } = body;
+  const index = comments.findIndex((item) => item.id === parseInt(params.id));
+  comments[index].text = text;
+
+  return Response.json(comments[index]);
+};

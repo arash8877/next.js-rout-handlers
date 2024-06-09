@@ -36,4 +36,10 @@ export default function RootLayout({
 
 //-------------------- Dynamic Route Handler -------------------
 
-// see: app/comments/[id]
+// GET method
+// see: app/comments/[id]/route.ts
+
+//-------------------- Dynamic Route Handler -------------------
+
+// PATCH method
+// see: app/comments/[id]/route.ts
