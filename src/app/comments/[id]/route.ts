@@ -20,3 +20,10 @@ export const PATCH = async (request: Request, { params }: iContext) => {
 
   return Response.json(comments[index]);
 };
+
+export const DELETE = async (request: Request, { params }: iContext) => {
+    const index = comments.findIndex((item) => item.id === parseInt(params.id));
+    const deletedComment = comments[index];
+    comments.splice(index, 1);
+    return Response.json(deletedComment);
+  };

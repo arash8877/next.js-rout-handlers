@@ -41,5 +41,5 @@ export default function RootLayout({
 
 //-------------------- Dynamic Route Handler -------------------
 
-// PATCH method
+// PATCH and DELETE methods
 // see: app/comments/[id]/route.ts
