@@ -49,3 +49,8 @@ export default function RootLayout({
 
 //-------------------- Redirects in Route Handlers ---------------------
 // see: app/comments/[id]/route.ts using {redirect} from "next/navigation"
+
+//-------------------- Headers in Route Handlers ---------------------
+// read headers from incoming request. see app/profile/api/route.ts
+// to set outgoing request: you need to return a new response with a new headers
+// check Content-Type in Inspect-->Network-->refresh the page-->click on api-->headers-->Response Headers
