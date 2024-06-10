@@ -43,3 +43,9 @@ export default function RootLayout({
 
 // PATCH and DELETE methods
 // see: app/comments/[id]/route.ts
+
+//-------------------- URL query parameter ---------------------
+// see: app/comments/[id]/route.ts  the second GET method
+
+//-------------------- Redirects in Route Handlers ---------------------
+// see: app/comments/[id]/route.ts using {redirect} from "next/navigation"
