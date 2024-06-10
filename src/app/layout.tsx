@@ -22,25 +22,21 @@ export default function RootLayout({
 }
 
 //--------------------Route HAndlers -------------------
-
 // rout-handlers allow you to handle custom request handlers for a given route. they are defined
 // in a route.tsx or route.js file
 // to avoid conflict between pager-route (page.tsx) and route-handler (route.tsx)
 // place the rote-handler (route.ts) to a subdirectory named 'api'
 
 //-------------------- POST request -------------------
-
 // app/comments/route.ts
 // https://www.youtube.com/watch?v=pzPS7Fn-8tE&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=35
 // to test the request we can use VScode extension called 'Thunder Client'.
 
 //-------------------- Dynamic Route Handler -------------------
-
 // GET method
 // see: app/comments/[id]/route.ts
 
 //-------------------- Dynamic Route Handler -------------------
-
 // PATCH and DELETE methods
 // see: app/comments/[id]/route.ts
 
@@ -54,3 +50,8 @@ export default function RootLayout({
 // read headers from incoming request. see app/profile/api/route.ts
 // to set outgoing request: you need to return a new response with a new headers
 // check Content-Type in Inspect-->Network-->refresh the page-->click on api-->headers-->Response Headers
+
+// https://www.youtube.com/watch?v=pxHbFrahyLY&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=41
+
+//-------------------- Cookies in Route Handlers ---------------------
+// Cookies are small piece of data that a server sends to user's web browser
