@@ -55,3 +55,11 @@ export default function RootLayout({
 
 //-------------------- Cookies in Route Handlers ---------------------
 // Cookies are small piece of data that a server sends to user's web browser
+// app/profile/api/route.ts
+
+//-------------------- Cashing in Route Handlers ---------------------
+// app/time/route.ts
+// if we build the app, and npm run test, we have the current local time. if we refresh the page,
+// the time does not updated and remains the same, because of cashing. 
+// to inform Next.js that we don't want a response to be cashed,
+// we can use segment config option with a dynamic mode
