@@ -63,3 +63,6 @@ export default function RootLayout({
 // the time does not updated and remains the same, because of cashing. 
 // to inform Next.js that we don't want a response to be cashed,
 // we can use segment config option with a dynamic mode
+
+//--------------------------- middleware -----------------------------
+// source/middleware.ts
